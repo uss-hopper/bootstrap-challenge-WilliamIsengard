@@ -3,6 +3,7 @@ img {
   height: auto;
 }
 
-.row m-3  {
-  background-color: blue;
+.container-fluid {
+  box-sizing: content-box;
+  width: 100%;
 }
