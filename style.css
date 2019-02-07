@@ -2,3 +2,7 @@ img {
   width: 15rem;
   height: auto;
 }
+
+.media-object-background {
+  background-color: #cacaca;
+}
