@@ -3,6 +3,6 @@ img {
   height: auto;
 }
 
-.media-object-background {
-  background-color: #cacaca;
+.row m-3  {
+  background-color: blue;
 }
