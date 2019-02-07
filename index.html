@@ -19,33 +19,37 @@
     <title>Bootstrap Challenge</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
 <!-- Creates dynamic NavBar -->
      <div class="row">
-       <div class="col">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border">
-              <a class="navbar-brand" href="#">Title</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        </div>
-        <div class="col">
-                <ul class="navbar-nav ">
-                  <li class="nav-item nav-link" href="#">Link 1</li>
-                  <li class="nav-item nav-link" href="#">Link 2</li>
-                  <li class="nav-item nav-link" href="#">Link 3</li>
-                  <li class="nav-item nav-link" href="#">Link 4</li>
-                </ul>
-          </div>
-              </div>
-            </nav>
-        </div>
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">Title</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link" href="#">Link 1 <span class="sl-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Link 2</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Link 3</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Link 4</a>
+             </li>
+           </ul>
+         </div>
+       </nav>
+       </div>
 
 <!-- Creates jumbotron -->
 
         <div class="row">
-          <div class="col"
+          <div class="col">
             <div class="jumbotron">
             <h1 class="display-4">Hello, world!</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
